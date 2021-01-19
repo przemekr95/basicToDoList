@@ -14,12 +14,56 @@
 </head>
 
 <body>
-    <div class="wrapper animate__animated animate__bounceInDown">
+    <div class="todo animate__animated animate__bounceInDown">
+        <div class="header">
+            <h1>ToDo List</h1>
+            <input type="text" class="todo-input" placeholder="Wpisz treść zadania">
+            <button class="add-btn">Dodaj</button>
+        </div>
+        <div class="todo-list">
+            <h3>Lista zadań:</h3>
+            <p class="alert-info">Brak zadań na liście.</p>
+            <ul>
+                <li id="test">
+                    Programować
+                    <div class="tools">
+                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="edit"><i class="fas fa-edit"></i></button>
+                        <button class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+                <li id="test2">
+                    Programować
+                    <div class="tools">
+                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="edit"><i class="fas fa-edit"></i></button>
+                        <button class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+                <li id="test3">
+                    Programować
+                    <div class="tools">
+                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="edit"><i class="fas fa-edit"></i></button>
+                        <button class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+            </ul>
 
+        </div>
     </div>
 
 
-
+    <div class="popup">
+        <h3>Edytuj zadanie</h3>
+        <div class="popup-body">
+            <p class="popup-info">
+                <input type="text" class="popup-input" placeholder="Wprowadź nową treść zadania">
+                <button class="popup-btn accept"><i class="fas fa-check-circle"></i></button>
+                <button class="popup-btn cancel"><i class="fas fa-window-close"></i></button>
+            </p>
+        </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/65594cdafd.js" crossorigin="anonymous"></script>
 
