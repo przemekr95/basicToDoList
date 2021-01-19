@@ -190,6 +190,15 @@ ul {
 }
 
 @media only screen and (max-width: 800px) {
+    body {
+        margin-top: 20px;
+    }
+
+    .todo {
+        margin: 0 5px;
+        padding: 0;
+    }
+
     .popup {
         width: 100%;
     }
